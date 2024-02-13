@@ -54,3 +54,179 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# blitzmart-fesf
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/frontend/blitzmart-fesf/dist
+/frontend/blitzmart-fesf/tmp
+/frontend/blitzmart-fesf/out-tsc
+/frontend/blitzmart-fesf/bazel-out
+
+# Node
+/frontend/blitzmart-fesf/node_modules
+/frontend/blitzmart-fesf/npm-debug.log
+/frontend/blitzmart-fesf/yarn-error.log
+
+# IDEs and editors
+/frontend/blitzmart-fesf/.idea/
+/frontend/blitzmart-fesf/.project
+/frontend/blitzmart-fesf/.classpath
+/frontend/blitzmart-fesf/.c9/
+/frontend/blitzmart-fesf/*.launch
+/frontend/blitzmart-fesf/.settings/
+/frontend/blitzmart-fesf/*.sublime-workspace
+
+# Visual Studio Code
+/frontend/blitzmart-fesf/.vscode/*
+/frontend/blitzmart-fesf/!.vscode/settings.json
+/frontend/blitzmart-fesf/!.vscode/tasks.json
+/frontend/blitzmart-fesf/!.vscode/launch.json
+/frontend/blitzmart-fesf/!.vscode/extensions.json
+/frontend/blitzmart-fesf/.history/*
+
+# Miscellaneous
+/frontend/blitzmart-fesf/.angular/cache
+/frontend/blitzmart-fesf/.sass-cache/
+/frontend/blitzmart-fesf/connect.lock
+/frontend/blitzmart-fesf/coverage
+/frontend/blitzmart-fesf/libpeerconnection.log
+/frontend/blitzmart-fesf/testem.log
+/frontend/blitzmart-fesf/typings
+
+# System files
+/frontend/blitzmart-fesf/.DS_Store
+/frontend/blitzmart-fesf/Thumbs.db
+
+# blitzmart-fesf-ssr
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/frontend/blitzmart-fesf-ssr/dist
+/frontend/blitzmart-fesf-ssr/tmp
+/frontend/blitzmart-fesf-ssr/out-tsc
+/frontend/blitzmart-fesf-ssr/bazel-out
+
+# Node
+/frontend/blitzmart-fesf-ssr/node_modules
+/frontend/blitzmart-fesf-ssr/npm-debug.log
+/frontend/blitzmart-fesf-ssr/yarn-error.log
+
+# IDEs and editors
+/frontend/blitzmart-fesf-ssr/.idea/
+/frontend/blitzmart-fesf-ssr/.project
+/frontend/blitzmart-fesf-ssr/.classpath
+/frontend/blitzmart-fesf-ssr/.c9/
+/frontend/blitzmart-fesf-ssr/*.launch
+/frontend/blitzmart-fesf-ssr/.settings/
+/frontend/blitzmart-fesf-ssr/*.sublime-workspace
+
+# Visual Studio Code
+/frontend/blitzmart-fesf-ssr/.vscode/*
+/frontend/blitzmart-fesf-ssr/!.vscode/settings.json
+/frontend/blitzmart-fesf-ssr/!.vscode/tasks.json
+/frontend/blitzmart-fesf-ssr/!.vscode/launch.json
+/frontend/blitzmart-fesf-ssr/!.vscode/extensions.json
+/frontend/blitzmart-fesf-ssr/.history/*
+
+# Miscellaneous
+/frontend/blitzmart-fesf-ssr/.angular/cache
+/frontend/blitzmart-fesf-ssr/.sass-cache/
+/frontend/blitzmart-fesf-ssr/connect.lock
+/frontend/blitzmart-fesf-ssr/coverage
+/frontend/blitzmart-fesf-ssr/libpeerconnection.log
+/frontend/blitzmart-fesf-ssr/testem.log
+/frontend/blitzmart-fesf-ssr/typings
+
+# System files
+/frontend/blitzmart-fesf-ssr/.DS_Store
+/frontend/blitzmart-fesf-ssr/Thumbs.db
+
+# blitzmart-fest
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/frontend/blitzmart-fest/dist
+/frontend/blitzmart-fest/tmp
+/frontend/blitzmart-fest/out-tsc
+/frontend/blitzmart-fest/bazel-out
+
+# Node
+/frontend/blitzmart-fest/node_modules
+/frontend/blitzmart-fest/npm-debug.log
+/frontend/blitzmart-fest/yarn-error.log
+
+# IDEs and editors
+/frontend/blitzmart-fest/.idea/
+/frontend/blitzmart-fest/.project
+/frontend/blitzmart-fest/.classpath
+/frontend/blitzmart-fest/.c9/
+/frontend/blitzmart-fest/*.launch
+/frontend/blitzmart-fest/.settings/
+/frontend/blitzmart-fest/*.sublime-workspace
+
+# Visual Studio Code
+/frontend/blitzmart-fest/.vscode/*
+/frontend/blitzmart-fest/!.vscode/settings.json
+/frontend/blitzmart-fest/!.vscode/tasks.json
+/frontend/blitzmart-fest/!.vscode/launch.json
+/frontend/blitzmart-fest/!.vscode/extensions.json
+/frontend/blitzmart-fest/.history/*
+
+# Miscellaneous
+/frontend/blitzmart-fest/.angular/cache
+/frontend/blitzmart-fest/.sass-cache/
+/frontend/blitzmart-fest/connect.lock
+/frontend/blitzmart-fest/coverage
+/frontend/blitzmart-fest/libpeerconnection.log
+/frontend/blitzmart-fest/testem.log
+/frontend/blitzmart-fest/typings
+
+# System files
+/frontend/blitzmart-fest/.DS_Store
+/frontend/blitzmart-fest/Thumbs.db
+
+# blitzmart-fest-ssr
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/frontend/blitzmart-fest-ssr/dist
+/frontend/blitzmart-fest-ssr/tmp
+/frontend/blitzmart-fest-ssr/out-tsc
+/frontend/blitzmart-fest-ssr/bazel-out
+
+# Node
+/frontend/blitzmart-fest-ssr/node_modules
+/frontend/blitzmart-fest-ssr/npm-debug.log
+/frontend/blitzmart-fest-ssr/yarn-error.log
+
+# IDEs and editors
+/frontend/blitzmart-fest-ssr/.idea/
+/frontend/blitzmart-fest-ssr/.project
+/frontend/blitzmart-fest-ssr/.classpath
+/frontend/blitzmart-fest-ssr/.c9/
+/frontend/blitzmart-fest-ssr/*.launch
+/frontend/blitzmart-fest-ssr/.settings/
+/frontend/blitzmart-fest-ssr/*.sublime-workspace
+
+# Visual Studio Code
+/frontend/blitzmart-fest-ssr/.vscode/*
+/frontend/blitzmart-fest-ssr/!.vscode/settings.json
+/frontend/blitzmart-fest-ssr/!.vscode/tasks.json
+/frontend/blitzmart-fest-ssr/!.vscode/launch.json
+/frontend/blitzmart-fest-ssr/!.vscode/extensions.json
+/frontend/blitzmart-fest-ssr/.history/*
+
+# Miscellaneous
+/frontend/blitzmart-fest-ssr/.angular/cache
+/frontend/blitzmart-fest-ssr/.sass-cache/
+/frontend/blitzmart-fest-ssr/connect.lock
+/frontend/blitzmart-fest-ssr/coverage
+/frontend/blitzmart-fest-ssr/libpeerconnection.log
+/frontend/blitzmart-fest-ssr/testem.log
+/frontend/blitzmart-fest-ssr/typings
+
+# System files
+/frontend/blitzmart-fest-ssr/.DS_Store
+/frontend/blitzmart-fest-ssr/Thumbs.db
