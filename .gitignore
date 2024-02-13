@@ -1,59 +1,115 @@
+# blitzmart-be
 # compiled output
 /backend/blitzmart-be/dist
 /backend/blitzmart-be/node_modules
 /backend/blitzmart-be/build
 
 # Logs
-logs
-*.log
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
+/backend/blitzmart-be/logs
+/backend/blitzmart-be/*.log
+/backend/blitzmart-be/npm-debug.log*
+/backend/blitzmart-be/pnpm-debug.log*
+/backend/blitzmart-be/yarn-debug.log*
+/backend/blitzmart-be/yarn-error.log*
+/backend/blitzmart-be/lerna-debug.log*
 
 # OS
-.DS_Store
+/backend/blitzmart-be/.DS_Store
 
 # Tests
-/coverage
-/.nyc_output
+/backend/blitzmart-be/coverage
+/backend/blitzmart-be/.nyc_output
 
 # IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+/backend/blitzmart-be/.idea
+/backend/blitzmart-be/.project
+/backend/blitzmart-be/.classpath
+/backend/blitzmart-be/.c9/
+/backend/blitzmart-be/*.launch
+/backend/blitzmart-be/.settings/
+/backend/blitzmart-be/*.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+/backend/blitzmart-be/.vscode/*
+/backend/blitzmart-be/!.vscode/settings.json
+/backend/blitzmart-be/!.vscode/tasks.json
+/backend/blitzmart-be/!.vscode/launch.json
+/backend/blitzmart-be/!.vscode/extensions.json
 
 # dotenv environment variable files
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
+/backend/blitzmart-be/.env
+/backend/blitzmart-be/.env.development.local
+/backend/blitzmart-be/.env.test.local
+/backend/blitzmart-be/.env.production.local
+/backend/blitzmart-be/.env.local
 
 # temp directory
-.temp
-.tmp
+/backend/blitzmart-be/.temp
+/backend/blitzmart-be/.tmp
 
 # Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
+/backend/blitzmart-be/pids
+/backend/blitzmart-be/*.pid
+/backend/blitzmart-be/*.seed
+/backend/blitzmart-be/*.pid.lock
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# blitzmart-be-api
+# compiled output
+/backend/blitzmart-be-api/dist
+/backend/blitzmart-be-api/node_modules
+/backend/blitzmart-be-api/build
+
+# Logs
+/backend/blitzmart-be-api/logs
+/backend/blitzmart-be-api/*.log
+/backend/blitzmart-be-api/npm-debug.log*
+/backend/blitzmart-be-api/pnpm-debug.log*
+/backend/blitzmart-be-api/yarn-debug.log*
+/backend/blitzmart-be-api/yarn-error.log*
+/backend/blitzmart-be-api/lerna-debug.log*
+
+# OS
+/backend/blitzmart-be-api/.DS_Store
+
+# Tests
+/backend/blitzmart-be-api/coverage
+/backend/blitzmart-be-api/.nyc_output
+
+# IDEs and editors
+/backend/blitzmart-be-api/.idea
+/backend/blitzmart-be-api/.project
+/backend/blitzmart-be-api/.classpath
+/backend/blitzmart-be-api/.c9/
+/backend/blitzmart-be-api/*.launch
+/backend/blitzmart-be-api/.settings/
+/backend/blitzmart-be-api/*.sublime-workspace
+
+# IDE - VSCode
+/backend/blitzmart-be-api/.vscode/*
+/backend/blitzmart-be-api/!.vscode/settings.json
+/backend/blitzmart-be-api/!.vscode/tasks.json
+/backend/blitzmart-be-api/!.vscode/launch.json
+/backend/blitzmart-be-api/!.vscode/extensions.json
+
+# dotenv environment variable files
+/backend/blitzmart-be-api/.env
+/backend/blitzmart-be-api/.env.development.local
+/backend/blitzmart-be-api/.env.test.local
+/backend/blitzmart-be-api/.env.production.local
+/backend/blitzmart-be-api/.env.local
+
+# temp directory
+/backend/blitzmart-be-api/.temp
+/backend/blitzmart-be-api/.tmp
+
+# Runtime data
+/backend/blitzmart-be-api/pids
+/backend/blitzmart-be-api/*.pid
+/backend/blitzmart-be-api/*.seed
+/backend/blitzmart-be-api/*.pid.lock
 
 # blitzmart-fesf
 # See http://help.github.com/ignore-files/ for more about ignoring files.
