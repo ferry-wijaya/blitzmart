@@ -1,0 +1,14 @@
+[gui]
+	recentrepo = D:/kfy.cc-projects/blitzmart/
+[user]
+	name = ferry-wijaya
+	email = ferrywijaya1986@gmail.com
+[safe]
+	directory = D:/kfy.cc-projects/blitzmart/
+	directory = D:/kfy.cc-projects/blitzmart/backend/
+	directory = D:/kfy.cc-projects/blitzmart/backend/backend-dev/
+[core]
+	editor = \"C:\\Users\\hwang\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+	autocrlf = false
+[init]
+	defaultBranch = main
