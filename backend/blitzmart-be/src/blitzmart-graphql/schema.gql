@@ -14,22 +14,50 @@ type Supplier {
   options: SupplierOptions
 }
 
+type UserSetting {
+  userId: Int!
+  receiveNotifications: Boolean!
+  receiveEmails: Boolean!
+}
+
+type User {
+  id: Int!
+  username: String!
+  displayName: String
+  settings: UserSetting
+}
+
 type Query {
+  getSupplierById(id: Int!): Supplier
   getSuppliers: [Supplier!]!
+  getUserById(id: Int!): User
+  getUsers: [User!]!
 }
 
 type Mutation {
-  createSupplier(name: String!): Supplier!
-  createSupplierInput(createSupplierData: CreateSupplierInput!): Supplier!
+  createSupplier(createSupplierData: CreateSupplierInput!): Supplier!
   createSupplierOptions(createSupplierOptionsData: CreateSupplierOptionsInput!): SupplierOptions!
+  createUser(createUserData: CreateUserInput!): User!
+  createUserSettings(createUserSettingsData: CreateUserSettingsInput!): UserSetting!
 }
 
 input CreateSupplierInput {
-  supplierName: String!
+  name: String!
 }
 
 input CreateSupplierOptionsInput {
   supplierId: Int!
   consignment: Boolean = false
   taxable: Boolean = false
+}
+
+input CreateUserInput {
+  username: String!
+  displayName: String
+}
+
+input CreateUserSettingsInput {
+  userId: Int!
+  receiveNotifications: Boolean = false
+  receiveEmails: Boolean = false
 }

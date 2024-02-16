@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { SupplierOptions } from './entities/supplier-options.entity';
 import { Repository } from 'typeorm';
+import { SupplierOptions } from '../blitzmart-graphql/entities/supplier-options.entity';
 
 @Injectable()
 export class SupplierOptionsService {

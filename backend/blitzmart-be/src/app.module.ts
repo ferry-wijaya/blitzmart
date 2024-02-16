@@ -5,13 +5,13 @@ import { BlitzmartGraphqlModule } from './blitzmart-graphql/blitzmart-graphql.mo
 import { BlitzmartRestapiModule } from './blitzmart-restapi/blitzmart-restapi.module';
 import { GraphQLModule } from '@nestjs/graphql';
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
-import { SupplierResolver } from './blitzmart-graphql/resolvers/supplier.resolver';
-import { SupplierOptionsResolver } from './blitzmart-graphql/resolvers/supplier-options.resolver';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { SupplierModule } from './suppliers/supplier.module';
+import { UsersModule } from './users/users.module';
+import { User } from './graphql/models/User';
+import { UserSetting } from './graphql/models/UserSettings';
 import { Supplier } from './blitzmart-graphql/entities/supplier.entity';
 import { SupplierOptions } from './blitzmart-graphql/entities/supplier-options.entity';
-import { SupplierModule } from './blitzmart-graphql/supplier.module';
-import { SupplierOptionsModule } from './blitzmart-graphql/supplier-options.module';
 @Module({
   imports: [        
     GraphQLModule.forRoot<ApolloDriverConfig>({
@@ -27,12 +27,16 @@ import { SupplierOptionsModule } from './blitzmart-graphql/supplier-options.modu
       database: 'blitzmart',
       entities: [
         Supplier, 
-        SupplierOptions],
+        SupplierOptions,
+        User,
+        UserSetting
+      ],
       synchronize: true,
-
+      dropSchema: true
     }),
     SupplierModule,
-    // BlitzmartGraphqlModule, 
+    UsersModule
+    //BlitzmartGraphqlModule, 
     //BlitzmartRestapiModule
     
   ],
