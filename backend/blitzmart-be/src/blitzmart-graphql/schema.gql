@@ -1,0 +1,35 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type SupplierOptions {
+  supplierId: Int!
+  consignment: Boolean!
+  taxable: Boolean!
+}
+
+type Supplier {
+  id: Int!
+  name: String!
+  options: SupplierOptions
+}
+
+type Query {
+  getSuppliers: [Supplier!]!
+}
+
+type Mutation {
+  createSupplier(name: String!): Supplier!
+  createSupplierInput(createSupplierData: CreateSupplierInput!): Supplier!
+  createSupplierOptions(createSupplierOptionsData: CreateSupplierOptionsInput!): SupplierOptions!
+}
+
+input CreateSupplierInput {
+  supplierName: String!
+}
+
+input CreateSupplierOptionsInput {
+  supplierId: Int!
+  consignment: Boolean = false
+  taxable: Boolean = false
+}
