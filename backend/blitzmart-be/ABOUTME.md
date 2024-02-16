@@ -31,3 +31,5 @@ Choose `REST-API`
 #### USING MONGOOSE
 
 `>> npm i @nestjs/mongoose mongoose`
+
+>> npm i --save class-validator class-transformer

@@ -27,9 +27,17 @@ type User {
   settings: UserSetting
 }
 
+type Customer {
+  id: Int!
+  name: String!
+  phone: String!
+  address: String
+  contact: String
+}
+
 type Query {
-  getSupplierById(id: Int!): Supplier
-  getSuppliers: [Supplier!]!
+  getSupplierById(id: String!): Customer
+  getSuppliers: [Customer!]!
   getUserById(id: Int!): User
   getUsers: [User!]!
 }
